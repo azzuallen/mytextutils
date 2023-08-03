@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import TextForm from './components/TextForm';
 
 function App() {
 
@@ -9,9 +10,14 @@ function App() {
     
      <>
 
-    <Navbar  title= "sasta"/>
+    <Navbar  title= "textUtils"   about="About Us"/>
+    
+    <div className='container'>
+    <TextForm heading =" Enter Text to Analyze" />
+    </div>
+   
 
-    </>  
+    </> 
    
   );  
 }
